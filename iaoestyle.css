@@ -33,6 +33,7 @@
 
 body {
     background-color: rgb(29, 66, 166);
+    overflow-x: hidden;
     /*background-image: url('images/loading_slash.png');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
