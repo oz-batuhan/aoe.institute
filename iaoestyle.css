@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'lblack';
-    src: url('fonts/lblack.ttf') format('truetype');
+    src: url('lblack.ttf') format('truetype');
 }
 @font-face {
     font-family: 'centbd_' ;
-    src: url('fonts/centbd_.ttf') format('truetype');
+    src: url('centbd_.ttf') format('truetype');
 }
 @font-face {
     font-family: 'notoserif'; 
-    src: url('fonts/notoserif.ttf') format('truetype');
+    src: url('notoserif.ttf') format('truetype');
 }
 
 .sticky-header {
