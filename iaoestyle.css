@@ -94,13 +94,20 @@ body {
     background-color: rgba(15, 15, 15, 0.8);
     border-color: rgb(226, 192, 68);
 }
-
+  
+.nav-button:hover .nav-button-a {
+    color: rgb(226, 192, 68);
+}
+  
 .nav-button:active {
     background-color: rgb(15, 15, 15);
     border-color: rgb(255, 150, 0);
 }
+.nav-button:active .nav-button-a {
+    color: rgb(251, 150, 7);
+}
 
-a.nav-button-a {
+.nav-button-a {
     font-family: 'lblack';
     color: rgb(199, 199, 199);
     text-decoration: none;
@@ -108,10 +115,6 @@ a.nav-button-a {
 
 a.nav-button-a:hover {
     color: rgb(226, 192, 68);
-}
-
-a.nav-button-a:active {
-    color: rgb(251, 150, 7);
 }
 
 .join-us-div {
