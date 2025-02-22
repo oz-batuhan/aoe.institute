@@ -27,7 +27,7 @@ body {
     color:rgb(242, 240, 240);
     font-family: 'lblack';
     font-size: 133px;
-    margin: 500px 0 0 0;
+
 }
 
 .index-h2 {
@@ -35,7 +35,7 @@ body {
     font-family: 'notoserif';
     font-size: 15px;
     font-weight: normal;
-    margin: 10px 0 0 0;
+
 }
 
 .index-h3 {
@@ -44,7 +44,6 @@ body {
     font-size: 15px;
     font-weight: normal;
     display: block;
-    margin: 0 0 0 0;
 }
 
 .nav-button-div {
@@ -81,7 +80,6 @@ body {
 }
 
 .join-us-div {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
