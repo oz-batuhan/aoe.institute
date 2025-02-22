@@ -16,33 +16,18 @@ body {
     overflow-x: hidden;
 }
 
-.sticky-header {
-    display: flex;
-    background-color: rgb(25, 65, 188);
-    margin: -10px -10px -10px -10px;
-    padding: 20px 0px 20px 0px;
-    border-width: 10px;
-    border-color: rgb(0, 13, 133);
-    border-style: groove;   
-    z-index: 100;
-}
-
-.header-middle-text {
-    font-family: "lblack";
-    font-size: 15px;
-    color:rgb(242, 240, 240);
-    text-decoration: none;
-}
-
 .index-div {
+    display: block;
     text-align: center;
-    margin: 100px 0px 0px 0px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 .index-h1 {
     color:rgb(242, 240, 240);
     font-family: 'lblack';
-    font-size: 77px;
+    font-size: 133px;
+    margin: 500px 0 0 0;
 }
 
 .index-h2 {
@@ -50,7 +35,7 @@ body {
     font-family: 'notoserif';
     font-size: 15px;
     font-weight: normal;
-    margin: 0 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .index-h3 {
@@ -63,22 +48,24 @@ body {
 }
 
 .nav-button-div {
-    text-align: center;
-    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px 100px 50px 100px;
 }
 
 .nav-button {
     background-color: rgba(43, 43, 43, 0.5);
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'lblack';
     color: rgb(242, 240, 240);
     border-width: 2px;
     border-color: rgb(226, 192, 68);
     border-style: solid;
     cursor: pointer;
-    width: 177px;
+    width: 250px;
     height: 44px;
-    margin: 7px 7px 7px 7px;
+    margin: 10px 10px 10px 10px;
 }
 
 .nav-button:hover {
@@ -94,14 +81,18 @@ body {
 }
 
 .join-us-div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .signup-signin {
     color:rgb(242, 240, 240);
     font-family: 'notoserif';
-    font-size: 27px;    
+    font-size: 28px;    
     text-decoration: none;
     margin: 0 0 0 0;
 }
@@ -117,7 +108,7 @@ body {
 .spanamp{
     color:rgb(242, 240, 240);
     font-family: 'notoserif';
-    font-size: 15px;    
+    font-size: 14px;    
     text-decoration: none;
     margin: 0 0 0 0;
 }
