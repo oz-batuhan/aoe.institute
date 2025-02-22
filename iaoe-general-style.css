@@ -11,59 +11,49 @@
     src: url("fonts/notoserif.ttf") format("truetype");
 }
 
+body {
+    background-color: rgb(29, 66, 166);
+    overflow-x: hidden;
+}
+
 .sticky-header {
-    display: block;
-    z-index: 100;
+    display: flex;
     background-color: rgb(25, 65, 188);
     margin: -10px -10px -10px -10px;
     padding: 20px 0px 20px 0px;
-    text-align: center;
-    position: static;
     border-width: 10px;
     border-color: rgb(0, 13, 133);
     border-style: groove;   
+    z-index: 100;
 }
 
-.sticky-header-text{
-    font-family: 'lblack';
-    font-size: 17px;
+.header-middle-text {
+    font-family: "lblack";
+    font-size: 15px;
     color:rgb(242, 240, 240);
     text-decoration: none;
 }
 
-body {
-    background-color: rgb(29, 66, 166);
-    overflow-x: hidden;
-    /*background-image: url('images/loading_slash.png');
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;*/
-}
-
-.header-div {
+.index-div {
     text-align: center;
     margin: 100px 0px 0px 0px;
 }
 
-.IAOEH1 {
+.index-h1 {
     color:rgb(242, 240, 240);
     font-family: 'lblack';
     font-size: 70px;
-    display: block;
 }
 
-.IAOEH2 {
+.index-h2 {
     color:rgb(242, 240, 240);
     font-family: 'notoserif';
     font-size: 15px;
-    display: block;
     font-weight: normal;
     margin: -15px 0 0 0;
 }
 
-.IAOEH3 {
+.index-h3 {
     color:rgb(242, 240, 240);
     font-family: 'notoserif';
     font-size: 15px;
@@ -81,6 +71,8 @@ body {
 .nav-button {
     background-color: rgba(43, 43, 43, 0.5);
     font-size: 20px;
+    font-family: 'lblack';
+    color: rgb(242, 240, 240);
     border-width: 2px;
     border-color: rgb(226, 192, 68);
     border-style: solid;
@@ -93,28 +85,13 @@ body {
 .nav-button:hover {
     background-color: rgba(15, 15, 15, 0.8);
     border-color: rgb(226, 192, 68);
-}
-  
-.nav-button:hover .nav-button-a {
-    color: rgb(226, 192, 68);
+    color:rgb(226, 192, 68);
 }
   
 .nav-button:active {
     background-color: rgb(15, 15, 15);
-    border-color: rgb(255, 150, 0);
-}
-.nav-button:active .nav-button-a {
-    color: rgb(251, 150, 7);
-}
-
-.nav-button-a {
-    font-family: 'lblack';
-    color: rgb(199, 199, 199);
-    text-decoration: none;
-}
-
-a.nav-button-a:hover {
-    color: rgb(226, 192, 68);
+    border-color: rgb(208, 141, 46);
+    color: rgb(208, 141, 46);
 }
 
 .join-us-div {
@@ -135,7 +112,7 @@ a.nav-button-a:hover {
 }
 
 .signup-signin:active {
-    color: rgb(251, 137, 7);
+    color: rgb(208, 141, 46);
 }
 
 .spanamp{
