@@ -122,6 +122,20 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
+.footer-h2 {
+    color:rgb(0, 33, 71);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.footer-h3 {
+    color:rgb(0, 33, 71);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+}
+
 .signup-signin {
     color:rgb(0, 33, 71);
     font-family: 'notoserif';
