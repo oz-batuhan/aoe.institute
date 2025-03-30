@@ -12,6 +12,8 @@
 }
 
 body {
+    height: 100%;
+    padding: 0;
     margin: 0;
     background-color: rgb(185, 214, 242);
     overflow: hidden;
@@ -115,7 +117,7 @@ body {
 }
 
 .join-us-div {
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -125,9 +127,8 @@ body {
 .signup-signin {
     color:rgb(0, 33, 71);
     font-family: 'notoserif';
-    font-size: 28px;    
+    font-size: 25px;    
     text-decoration: none;
-    margin: 0 0 0 0;
 }
 
 .signup-signin:hover {
@@ -141,7 +142,7 @@ body {
 .spanamp{
     color:rgb(0, 33, 71);
     font-family: 'notoserif';
-    font-size: 14px;    
+    font-size: 15px;    
     text-decoration: none;
     margin: 0 0 0 0;
 }
