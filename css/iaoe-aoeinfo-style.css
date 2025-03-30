@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "lblack";
+    src: url("fonts/lblack.ttf") format("truetype");
+}
+@font-face {
+    font-family: "centbd_" ;
+    src: url("fonts/centbd_.ttf") format("truetype");
+}
+@font-face {
+    font-family: "notoserif"; 
+    src: url("fonts/notoserif.ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(185, 214, 242);
+    overflow-x: hidden;
+    color: rgb(0, 33, 71);
+}
+
+.aoeinfo-index-div {
+    display: block;
+    text-align: center;
+    font-family: 'lblack';
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    font-family: 'lblack';
+    font-size: 55px;
+}
+
+.aoeinfo-p-div {
+    font-family: 'notoserif';
+    display: block;
+    text-align: justify;
+    font-size: 15px;
+
+}
+
+.aoeinfo-p {
+    font-family: 'notoserif';
+}
+
+h2::first-letter {
+    font-family: 'lblack';
+    font-size: 150%;
+}

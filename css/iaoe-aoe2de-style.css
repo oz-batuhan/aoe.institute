@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "lblack";
+    src: url("../fonts/lblack.ttf") format("truetype");
+}
+@font-face {
+    font-family: "centbd_" ;
+    src: url("../fonts/centbd_.ttf") format("truetype");
+}
+@font-face {
+    font-family: "notoserif"; 
+    src: url("../fonts/notoserif.ttf") format("truetype");
+}
+@font-face {
+    font-family: "trojanbold"; 
+    src: url("../fonts/TrajanPro-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "trojanregular"; 
+    src: url("../fonts/TrajanPro-Regular.ttf") format("truetype");
+}
+
+body {
+    background-image: url("../resources/img/mainmenu_bg_edit.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: lighten;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(44, 44, 44);
+    overflow: hidden;
+    margin: 0;
+}
+
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(130, 9, 16);
+    padding: 20px;
+}
+
+.sticky-header-div-left {
+    float: left;    
+}
+
+.sticky-header-div-center {    
+    position: absolute;
+}
+
+.sticky-header-center-text {
+    font-family: 'lblack';
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sticky-header-div-right {
+    float: right;
+}
+
+.sticky-header-right-dropdown-select {
+    font-family: 'notoserif';
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.index-div {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.index-h1 {
+    color:rgb(130, 9, 16);
+    font-family: 'trojanregular';
+    font-size: 100px;
+}
+
+.index-h2 {
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.index-h3 {
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+    display: block;
+}
+
+.nav-button-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(226, 192, 68);
+    padding: 0px 20px 0px 20px;
+}
+
+.nav-button {
+    background-color: rgb(130, 9, 16);
+    background:radial-gradient(rgb(130, 9, 16) 0%, rgb(32, 0, 2) 100%);
+    font-size: 25px;
+    font-family: 'lblack';
+    color: rgb(226, 192, 68);
+    border-width: 2px;
+    border-color: rgb(226, 192, 68);
+    border-style: solid;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    margin: 25px;
+}
+
+.nav-button:hover {
+    background-color: rgba(175, 6, 11,);
+    background:radial-gradient(rgb(175, 6, 11) 0%, rgb(126, 126, 126) 100%);
+    border-color: rgb(226, 192, 68);
+    color:rgb(226, 192, 68);
+}
+  
+.nav-button:active {
+    background-color: rgb(15, 15, 15);
+    border-color: rgb(208, 141, 46);
+    color: rgb(208, 141, 46);
+}
+
+.join-us-div {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-h2 {
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.footer-h3 {
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.signup-signin {
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 28px;    
+    text-decoration: none;
+    margin: 0 0 0 0;
+}
+
+.signup-signin:hover {
+    color: rgb(226, 192, 68);
+}
+
+.signup-signin:active {
+    color: rgb(208, 141, 46);
+}
+
+.spanamp{
+    color:rgb(130, 9, 16);
+    font-family: 'notoserif';
+    font-size: 14px;    
+    text-decoration: none;
+    margin: 0 0 0 0;
+}
