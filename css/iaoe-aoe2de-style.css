@@ -23,10 +23,10 @@ body {
     background-image: url("../resources/img/mainmenu_bg_edit.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-blend-mode: lighten;
+    background-blend-mode: multiply;
     background-position: center;
     background-attachment: fixed;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(68, 68, 68);
     overflow: hidden;
     margin: 0;
 }
@@ -75,9 +75,24 @@ body {
 }
 
 .index-h1 {
-    color:rgb(130, 9, 16);
+    display: flex;
+    justify-content: center;
+}
+
+.span-h1 {
     font-family: 'trojanregular';
     font-size: 100px;
+    background: linear-gradient(rgb(226, 192, 68), rgb(130, 9, 16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.span-red{
+    background: linear-gradient(rgb(255, 0, 0), rgb(130, 9, 16));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
 
 .index-h2 {
